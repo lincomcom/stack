@@ -7,9 +7,9 @@ using namespace std;
 
 bool SpeciL(char l){
 	if (l == '{' ||
-        l == '[' ||
-        l == '(' ||
-        l == '<')
+            l == '[' ||
+            l == '(' ||
+            l == '<')
     {
 		return 1;
     } else
